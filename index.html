@@ -2,14 +2,25 @@
 <html>
 <head>
     <title>weather app</title>
+    <link rel="stylesheet" href="stylesheet.css" >
 
 </head>
 <body>
 <div class="container">
 <h1 class="output" >Simple Weather App</h1>
-<input name="city">
-<button>search now</button>
-<img src="stock-vector-vectot-.jpg" style="display:none;">
+
+<div class="seabox"></div>
+<input name="city" id="searchbox">
+<button type="submit">search </button>
+    <div class="weather">
+    <h2 class="town">weather in Tanta</h2>
+    <div class="temp">51°C</div>
+    <img src="" alt="" class="icon">
+    <div class="description">cloudy</div>
+    <div class="humidity">humidity:60%</div>
+    <div class="wind">wind speed:6.5 km/h </div>
+
+    </div>
 </div>
 
 <script src="app.js"></script>

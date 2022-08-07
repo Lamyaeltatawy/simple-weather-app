@@ -1,0 +1,27 @@
+button{width: 120px;
+    height: 70px;
+    font-family: serif;
+    background-color: #33cc33;
+    border: none;
+    margin: 7px;
+    font-size:38px;
+    border-radius:7px;
+    }
+#searchbox{
+width: 406px;
+    height: 76px;
+    font-family: serif;
+    border: none;
+    margin: 7px;
+    font-size: 35px;
+    font-size: 45px;
+    text-transform:capitalize;
+}
+.weather{
+font-family:serif;
+margin:5px;
+}
+
+
+
+}
